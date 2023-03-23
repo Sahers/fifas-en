@@ -1,0 +1,112 @@
+@font-face{
+  font-family: font;
+  src:url(Changa-ExtraLight.ttf);
+}
+* {
+    font-size: 13pt;
+    margin:0;
+    padding:0;
+    font-family: font;
+}
+body{
+  width: 540px;
+  height:550px;
+  background-color: #00F9FF;
+/*background-image: url("fifa.jpg");
+background-size: 550px 270px;*/
+}
+input[type="number"]{
+  width:30px;
+  display:inline;
+  margin-top: 10px;
+  margin-left: 5px;
+  direction: ltr;
+}
+button{
+  background-color: red;
+  margin: 50px;
+  margin-left: 43%;
+  /*  button border   */
+  border-radius:72%;
+}
+#box{
+  background-color: green;
+  border: 3px black solid;
+  text-align: left;
+}
+#ovr , #a , #b , #c{
+  text-align: left;
+}
+#calc{
+  background-color: #00FFC9;
+}
+#websites{
+  display: flex;
+  background-attachment: fixed;
+  background-color: red;
+  height: 150px;
+  margin-top: 50px;
+}
+.social{
+  border: solid 1px white;
+  text-decoration: none;
+  color:black;
+  width:calc(100% / 3);
+  height: 150px;
+  text-align: center;
+}
+#face{
+  background-image: url(facebook.svg);
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#github{
+  background-image: url(github.svg);
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#twitter{
+  background-image: url(twitter.svg);
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#social-word{
+  text-align: center;
+  color: red;
+}
+#arrow{
+  text-align: center;
+  font-size: 60px;
+  animation-name: ok;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes ok{
+  0%{
+    opacity:0;
+  }
+  25%{
+    opacity:1;
+  }
+  50%{
+    opacity:0;
+  }
+  75%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}
+#copyright , #author{
+  text-align: center;
+  background-color: #FFA200;
+  color:white;
+}
+#errorrank,#errorskill{
+  color: red;
+  text-align: center;
+}
